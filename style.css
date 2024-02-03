@@ -1,0 +1,50 @@
+body{
+    background-color: pink;
+}
+
+
+table{
+    border: 3px solid black;
+    background-color: yellow;
+    margin: auto;
+    width: 70%;
+    border-spacing: 8px;
+    text-align: center;
+
+}
+
+td:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.2)
+}
+
+td{
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 3s;
+}
+
+th{
+    border: 1px solid black;
+}
+
+tr{
+    background-color: aqua;
+    
+}
+
+.row {
+    background-color: blue;
+    color: white;
+}
+
+#head{
+    background-color: violet;
+    color: white;
+}
+
+table,td,th{
+    border: 2px solid black;
+    
+}
